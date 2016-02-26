@@ -1,0 +1,27 @@
+{
+  "name": "cucumber-js",
+  "version": "1.0.0",
+  "description": "Cucumber JS template",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "cucumber-js test/bdd/features/ -f pretty -r test/bdd/step_defs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GinoGalotti/cucumber-js-boilerplate"
+  },
+  "author": "GinoGalotti",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/GinoGalotti/cucumber-js-boilerplate#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-cucumber": "~0.2.1",
+    "grunt-mocha-test": "^0.12.7",
+    "sinon": "^1.17.2",
+    "sinon-chai": "~2.3.1",
+    "cucumber": "~0.3.0",
+    "zombie": "~2.0.0-alpha17",
+    "q": "~0.9.3"
+  }
+}
